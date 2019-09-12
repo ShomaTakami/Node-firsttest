@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "./component/Container";
+import Container from "./Container";
 
-import "./App.css";
-import "./index.css";
+import "../App.css";
+import "../index.css";
 
 function App() {
   return (

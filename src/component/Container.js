@@ -1,5 +1,7 @@
 import React from "react";
 
+import Popup from "./popup";
+
 function Container() {
   return (
     <div className='container'>
@@ -39,7 +41,7 @@ function Container() {
             <td>snajkfafd , vancouver BC</td>
             <td>09011112222</td>
             <td>
-              <i className='fas fa-pen'></i>
+              <Popup />
               <i className='fas fa-trash'></i>
             </td>
           </tr>
@@ -84,12 +86,12 @@ function Container() {
           </tr>
         </tbody>
       </table>
-      <div>
+      {/* <div>
         <p>
           Showing <span className='number'>5</span> out of
           <span className='number'>25</span> entries
         </p>
-        {/* <ul class="pagination justify-content-end">
+        <ul class="pagination justify-content-end">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -97,8 +99,8 @@ function Container() {
             <li class="page-item"><a class="page-link" href="#">4</a></li>
             <li class="page-item"><a class="page-link" href="#">5</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>  */}
-      </div>
+          </ul>  
+      </div> */}
     </div>
   );
 }
