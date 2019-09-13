@@ -1,6 +1,6 @@
 import React from "react";
 
-import Popup from "./popup";
+// import Popup from "./popup";
 
 function Container() {
   return (
@@ -41,7 +41,7 @@ function Container() {
             <td>snajkfafd , vancouver BC</td>
             <td>09011112222</td>
             <td>
-              <Popup />
+              <i className='fas fa-pen'></i>
               <i className='fas fa-trash'></i>
             </td>
           </tr>
@@ -54,7 +54,9 @@ function Container() {
             <td>snajkfafd , vancouver BC</td>
             <td>09011112222</td>
             <td>
-              <i className='fas fa-pen'></i>
+              <a href='#'>
+                <i className='fas fa-pen'></i>
+              </a>
               <i className='fas fa-trash'></i>
             </td>
           </tr>
@@ -99,7 +101,7 @@ function Container() {
             <li class="page-item"><a class="page-link" href="#">4</a></li>
             <li class="page-item"><a class="page-link" href="#">5</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>  
+          </ul>
       </div> */}
     </div>
   );
